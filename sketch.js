@@ -4,9 +4,13 @@ function setup(){
 
   // A rectangle
 rect(200,200,40,120);
+triangle(200,200,240,200,220,100);
 rect(240,210,30,110);
+triangle(240,210,270,210,255,150);
 rect(170,210,30,110);
+triangle(170,210,200,210,185,150);
 
+fill("white");
 ellipse(200,200,10,10);
 ellipse(210,200,10,10);
 ellipse(220,200,10,10);
